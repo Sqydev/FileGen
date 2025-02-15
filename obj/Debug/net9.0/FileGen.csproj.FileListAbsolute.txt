@@ -1,6 +1,4 @@
-/home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen
 /home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen.deps.json
-/home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen.runtimeconfig.json
 /home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen.dll
 /home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen.pdb
 /home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,5 +8,8 @@
 /home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.dll
 /home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/refint/FileGen.dll
 /home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.pdb
-/home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.genruntimeconfig.cache
 /home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/ref/FileGen.dll
+/home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.sourcelink.json
+/home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen
+/home/sqyd/projekty/C#/FileGen/bin/Debug/net9.0/FileGen.runtimeconfig.json
+/home/sqyd/projekty/C#/FileGen/obj/Debug/net9.0/FileGen.genruntimeconfig.cache

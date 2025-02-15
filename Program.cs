@@ -6,9 +6,6 @@
         Console.WriteLine("Enter the path to the orginal file(PATH/TO/FILE/frog.cs):");
         string PatchToOriginalFile = Console.ReadLine();
 
-        Console.WriteLine("Enter the word in the FILE NAME to be replaced:");
-        string WordInNameToReplace = Console.ReadLine();
-
         Console.WriteLine("Enter the word to be replaced in the FILE:");
         string WordToReplace = Console.ReadLine();
 
@@ -18,7 +15,7 @@
         Console.WriteLine("How many files do you want:");
         int NumberOfFiles = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter output words in FILE NAME (one by one (press ENTER after every word):");
+        Console.WriteLine("Enter output FILE NAMES (one by one (press ENTER after every word):");
         List<string> OutputNames = new List<string>();
         RegList(OutputNames);
 
