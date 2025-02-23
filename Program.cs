@@ -1,5 +1,7 @@
-﻿class Program {
-    static void Main() {
+class Program
+{
+    static void Main()
+    {
         Console.WriteLine("Enter the path to the folder you want the files to be created to(PATH/TO/FOLDER/):");
         string PatchToFolder = Console.ReadLine();
 
@@ -28,29 +30,28 @@
 
 
 
-        void RegList(List<string> OutputList){
+        void RegList(List<string> OutputList)
+        {
             string OutputListInput;
-            for(int i = 0; i < NumberOfFiles; i++){
+            for (int i = 0; i < NumberOfFiles; i++)
+            {
                 OutputListInput = Console.ReadLine();
-                
-                if (OutputListInput == ""){
-                    Console.WriteLine("No no no");
-                    continue;
-                }
 
                 OutputList.Add(OutputListInput);
             }
         }
 
-        void MakeFiles(){
-            for(int i = 1; i <= NumberOfFiles; i++){
-                string NewFileName = PatchToFolder + "\\" + OutputNames[i-1] + FileType;
-                string NewFile = PatchToFolder + "\\" + OutputNames[i-1] + FileType;
+        void MakeFiles()
+        {
+            for (int i = 1; i <= NumberOfFiles; i++)
+            {
+                string NewFileName = PatchToFolder + "\\" + OutputNames[i - 1] + FileType;
+                string NewFile = PatchToFolder + "\\" + OutputNames[i - 1] + FileType;
 
                 File.Copy(PatchToOriginalFile, NewFile);
 
                 string text = File.ReadAllText(NewFile);
-                text = text.Replace(WordToReplace, OutputWords[i-1]);
+                text = text.Replace(WordToReplace, OutputWords[i - 1]);
                 File.WriteAllText(NewFile, text);
 
                 File.Move(NewFile, NewFileName);
